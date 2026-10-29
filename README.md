@@ -10,6 +10,16 @@ You will solve this using **cookies and server-side sessions**.
 
 A starter project is provided with Express, Prisma, PostgreSQL configuration, and utility functions. Your task is to complete the missing `TODO` sections.
 
+Setup:
+Update the .env file with your user name and database
+run following commands.
+```
+npm install
+npx prisma migrate reset
+npx prisma migrate dev --name init
+npx prisma generate
+```
+
 ## How It Works
 
 1. **Register:** Create a new user using an email and password.
